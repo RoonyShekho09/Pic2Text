@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Text2Pic" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Pic2Text" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

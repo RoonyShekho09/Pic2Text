@@ -1,4 +1,4 @@
-package com.example.text2pic
+package com.example.pic2text
 
 import org.junit.Test
 

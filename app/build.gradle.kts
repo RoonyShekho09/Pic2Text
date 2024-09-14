@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.text2pic"
+    namespace = "com.example.pic2text"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.text2pic"
+        applicationId = "com.example.pic2text"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -59,6 +59,14 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    implementation (libs.text.recognition)
+
+    implementation (libs.compose.extended.gestures)
+
+    // Photo Picker
+    implementation(libs.modernstorage.photopicker)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

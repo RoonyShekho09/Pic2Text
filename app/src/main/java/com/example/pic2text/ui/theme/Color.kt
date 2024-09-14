@@ -1,4 +1,4 @@
-package com.example.text2pic.ui.theme
+package com.example.pic2text.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
